@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: "Bungee";
+    src: url("/public/font/Bungee-Regular.ttf") format('true-type');
+} 
+
+
+
+
+@theme {
+
+
+    --font-bungee : 'Bungee';
+
+    --color-main-50: #f2f6fd;
+    --color-main-100: #e4edfa;
+    --color-primery-200: #c3d9f4;
+    --color-main-300: #8ebaeb;
+    --color-main-400: #5296de;
+    --color-main-500: #2b77c9;
+    --color-main-600: #1d5eac;
+    --color-main-700: #184b8c;
+    --color-main-800: #184174;
+    --color-main-900: #193861;
+    --color-main-950: #112340;
+
+
+}

@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@import './theme.css';
+
+ 
+body {
+    @apply font-bungee;
+} 
+
+/* Style du header*/
+
+header {
+    a {
+        @apply underline decoration-transparent hover:decoration-main-900 hover:decoration-2 underline-offset-6 transition duration-150 ease-in-out
+    }
+}
+
