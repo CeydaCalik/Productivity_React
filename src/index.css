@@ -2,9 +2,14 @@
 @import './theme.css';
 
  
-body {
-    @apply font-bungee;
+#root {
+    @apply font-bungee min-h-screen flex flex-col;
 } 
+
+
+main {
+    @apply h-full grow;
+}
 
 /* Style du header*/
 
@@ -13,4 +18,7 @@ header {
         @apply underline decoration-transparent hover:decoration-main-900 hover:decoration-2 underline-offset-6 transition duration-150 ease-in-out
     }
 }
+
+
+
 

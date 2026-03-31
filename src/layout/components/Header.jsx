@@ -1,3 +1,5 @@
+import { NavLink } from "react-router"
+
 
 export const Header = () => {
     return (
@@ -7,22 +9,25 @@ export const Header = () => {
             <div className="flex items-center gap-4">
                 <img className="w-12" src="./icons/tardis.svg" alt="Logo du site "/>
 
-                <p className="text-main-900 uppercase text-2xl font-bold">Productivity</p>
+                <p className="text-main-900 uppercase text-2xl font-bold ">Productivity</p>
             </div>
 
             <nav>
                 <ul className="text-main-500 flex items-center gap-6 font-bold text-lg">
                     
                     <li>
-                        <a href="">Accueil</a>
+                        <NavLink to={"/"}> Accueil </NavLink>
                     </li>
 
                     <li>
-                        <a href="">Tâches</a>
+                        <NavLink to={"/task"}> Mes tâches </NavLink>
                     </li>
 
                     <li>
-                        <a href="">Pomodoro</a>
+                        <NavLink to={"/pomodoro"}>Pomodoro</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/login"}>Se connecter</NavLink>
                     </li>
                 </ul>
             </nav>
