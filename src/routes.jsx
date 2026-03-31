@@ -1,6 +1,12 @@
 
 import App from './App'
+import { TaskDetails } from './features/tasks/pages/TaskDetails'
+import { TaskHome } from './features/tasks/pages/TaskHome'
+import { Home } from './layout/pages/Home'
 import { NotFound } from './layout/pages/NotFound'
+
+
+
 
 /**
  * @type {import("react-router").RouteObject[]}
@@ -13,11 +19,16 @@ export const routes = [
         children : [
             {
                 index : true,
-                element : <div>Home page</div>
+                element : <Home />
             },
             {
-                path : "task",
-                element : <div>Mes tâches à faire</div>
+                path : "tasks",
+                element : <TaskHome />
+            },
+            {
+                path : "/task/:id",
+                element : <TaskDetails />
+
             },
             {
                 path : "*",

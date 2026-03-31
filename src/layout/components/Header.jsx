@@ -7,7 +7,7 @@ export const Header = () => {
         <header className="flex justify-between items-center py-4 px-8 bg-primery-200">
 
             <div className="flex items-center gap-4">
-                <img className="w-12" src="./icons/tardis.svg" alt="Logo du site "/>
+                <img className="w-12" src="../icons/tardis.svg" alt="Logo du site "/>
 
                 <p className="text-main-900 uppercase text-2xl font-bold ">Productivity</p>
             </div>
@@ -20,14 +20,14 @@ export const Header = () => {
                     </li>
 
                     <li>
-                        <NavLink to={"/task"}> Mes tâches </NavLink>
+                        <NavLink to={"/tasks"}> Mes tâches </NavLink>
                     </li>
 
                     <li>
                         <NavLink to={"/pomodoro"}>Pomodoro</NavLink>
                     </li>
                     <li>
-                        <NavLink to={"/login"}>Se connecter</NavLink>
+                        <NavLink className="btn" to={"/login"}>Se connecter</NavLink>
                     </li>
                 </ul>
             </nav>
