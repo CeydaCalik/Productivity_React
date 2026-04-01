@@ -1,0 +1,54 @@
+{
+        "faq": [
+          {
+            "id": 1,
+            "question": "Qui est le Docteur ?",
+            "réponse": "Le Docteur est un extraterrestre de la planète Gallifrey, appartenant à la race des Seigneurs du Temps, capable de voyager dans le temps et l’espace."
+          },
+          {
+            "id": 2,
+            "question": "Qu’est-ce que le TARDIS ?",
+            "réponse": "Le TARDIS (Time And Relative Dimension In Space) est le vaisseau du Docteur, plus grand à l’intérieur qu’à l’extérieur, souvent camouflé en cabine téléphonique bleue."
+          },
+          {
+            "id": 3,
+            "question": "Qu’est-ce que la régénération ?",
+            "réponse": "C’est le pouvoir du Docteur de changer de corps et de personnalité lorsqu’il est gravement blessé ou mourant."
+          },
+          {
+            "id": 4,
+            "question": "Qui sont les Dalek ?",
+            "réponse": "Les Daleks sont des ennemis emblématiques du Docteur, des créatures enfermées dans des armures robotiques, obsédées par la destruction."
+          },
+          {
+            "id": 5,
+            "question": "Qui sont les Cybermen ?",
+            "réponse": "Les Cybermen sont des humains transformés en êtres cybernétiques sans émotions, cherchant à convertir toute vie."
+          },
+          {
+            "id": 6,
+            "question": "Où se trouve Gallifrey ?",
+            "réponse": "Gallifrey est la planète d’origine du Docteur, située dans une autre dimension et souvent liée à la Guerre du Temps."
+          },
+          {
+            "id": 7,
+            "question": "Qu’est-ce que la Guerre du Temps ?",
+            "réponse": "C’est un conflit majeur entre les Seigneurs du Temps et les Daleks, qui a failli détruire l’univers."
+          },
+          {
+            "id": 8,
+            "question": "Le Docteur voyage-t-il seul ?",
+            "réponse": "Non, il est souvent accompagné de compagnons humains qui l’aident et découvrent l’univers avec lui."
+          },
+          {
+            "id": 9,
+            "question": "Le Docteur est-il un héros ?",
+            "réponse": "Oui, même s’il est imparfait, il protège les innocents et lutte contre les injustices à travers le temps."
+          },
+          {
+            "id": 10,
+            "question": "Pourquoi le TARDIS reste-t-il une cabine téléphonique ?",
+            "réponse": "À cause d’un système de camouflage cassé, il est bloqué sous cette apparence depuis les années 1960."
+          }
+        ]
+}

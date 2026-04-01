@@ -4,9 +4,11 @@ import { NavLink } from "react-router"
 export const TaskHome = () => {
     return (
         <>
-        <section className="py-6 px-12 flex items-center gap-6">
-            <img className="w-40" src="/icons/tardis.svg" alt="Image du tardis" />
-            <h1 className="text-3xl text-main-900 font-bungee">Tu as plein de chose à faire, allons-y !</h1>
+        <section className="py-12 px-44 flex flex-row  gap-4 items-start">
+            <img className="w-20" src="/icons/tardis.svg" alt="Image du tardis" />
+            <h1 className="text-5xl text-main-500">Tu as plein de chose à faire, allons-y !</h1>
+            <img className="w-20" src="/icons/tardis.svg" alt="Image du tardis" />
+
         </section>
 
         <section className="flex flex-col px-12">
