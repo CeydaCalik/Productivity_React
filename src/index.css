@@ -26,6 +26,11 @@ header {
   outline-transparent hover:outline-main-800 hover:bg-transparent hover:text-main-800;
 }
 
+form {
+    @apply bg-primery-200 px-5 py-5 rounded flex flex-col
+}
+
+
 
 
 

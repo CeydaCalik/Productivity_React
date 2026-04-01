@@ -38,6 +38,10 @@ export const Header = () => {
                     <li>
                         <NavLink className="btn" to={"/login"}>Se connecter</NavLink>
                     </li>
+
+                    <li>
+                        <NavLink className="btn" to={"auth/register"}>Créer un compte</NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>

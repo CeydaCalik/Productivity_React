@@ -6,6 +6,8 @@ import { About } from './layout/pages/About'
 import { FAQ } from './features/FAQ/FAQ'
 import { Home } from './layout/pages/Home'
 import { NotFound } from './layout/pages/NotFound'
+import { Register } from './features/auth/pages/Register'
+import { Login } from './features/auth/pages/Login'
 
 
 
@@ -44,8 +46,13 @@ export const routes = [
                 element : <NotFound /> 
             },
             {
-                path : "login",
-                element : <div>Me connecter</div>
+                path : "auth",
+                children : [
+                    {
+                        path: 'register',
+                        element : <Register />
+                    }
+                ] 
             }
         ]
     }

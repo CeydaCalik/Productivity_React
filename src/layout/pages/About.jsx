@@ -28,8 +28,8 @@ export const About = () => {
 
                 <h2 className="text-4xl text-main-900 underline decoration-main-500"><span className="text-main-500">Full Stack </span>JavaScript Developer</h2>
 
-                <div className="bg-main-100 flex flex-row py-8 px-3 ">
-                    <p className="text-lg text-main-900  py-5 px-5 rounded ">
+                <div className="bg-main-100 flex flex-row py-8 px-3 rounded">
+                    <p className="text-lg text-main-900  py-5 px-5">
                         Plongez dans le monde passionnant du développement web. Apprenez à créer des interfaces modernes et responsives avec JavaScript et React, puis connectez-les à des bases de données dynamiques grâce à Node.js et Express. Du frontend au backend, développez des applications web complètes.
                     </p>
 
