@@ -26,9 +26,26 @@ header {
   outline-transparent hover:outline-main-800 hover:bg-transparent hover:text-main-800;
 }
 
+/* Form register */
+
 form {
-    @apply bg-primery-200 px-5 py-5 rounded flex flex-col
+    @apply  px-8 py-8 rounded flex flex-col bg-primery-200 rounded-2xl
 }
+
+form label{
+    @apply text-xl text-main-100 mx-3
+}
+
+form input {
+    @apply px-2 py-2 text-primery-200
+}
+
+form div {
+    @apply bg-main-800 px-4 py-3 my-5 rounded-2xl
+}
+
+/* ---------- */
+
 
 
 

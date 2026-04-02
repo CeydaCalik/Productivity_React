@@ -36,7 +36,7 @@ export const Header = () => {
                     </li>
 
                     <li>
-                        <NavLink className="btn" to={"/login"}>Se connecter</NavLink>
+                        <NavLink className="btn" to={"auth/login"}>Se connecter</NavLink>
                     </li>
 
                     <li>

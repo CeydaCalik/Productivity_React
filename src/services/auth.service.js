@@ -9,9 +9,14 @@ const authService = {
         return reponse.data;
     },
 
-    // login : async (data) => {
+    login : async (userData) => {
 
-    // }
+        const reponse = await axios.post('http://localhost:3000/api/auth/login', userData)
+        return reponse.data;
+        console.log(userData);
+        
+
+    }
 
 };
 
