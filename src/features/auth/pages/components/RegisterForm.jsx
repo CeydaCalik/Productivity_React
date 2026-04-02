@@ -8,6 +8,7 @@ export const RegisterForm = () => {
     const navigate = useNavigate();
 
     const handleRegisterSubmit = async (formData) => {
+        
         console.log(formData);
 
 

@@ -9,11 +9,13 @@ const authService = {
         return reponse.data;
     },
 
-    login : async (userData) => {
+    login : async ({ email, password }) => {
 
-        const reponse = await axios.post('http://localhost:3000/api/auth/login', userData)
+        const reponse = await axios.post("http://localhost:3000/api/auth/login", { email, password });
+        console.log("token : ", reponse.data.token );
+        
+        
         return reponse.data;
-        console.log(userData);
         
 
     }
